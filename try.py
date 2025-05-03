@@ -1,11 +1,15 @@
-from tictactoe import player, actions, result, terminal
+from tictactoe import player, actions, result, terminal, winner, utility, minimax
 X = "X"
 O = "O"
 EMPTY = None
-board = [[X, X, O],
-         [O, X, O],
-         [X, O, X]]
-print(player(board))
+board = [[X, EMPTY, EMPTY],
+         [EMPTY, EMPTY, EMPTY],
+         [EMPTY, EMPTY, EMPTY]]
+'''print(player(board))
 print(actions(board))
-#sprint(result(board, (0, 1)))
+print(result(board, (0, 1)))
 print(terminal(board))
+print(winner(board))
+print(utility(board))'''
+print(minimax(board))
+

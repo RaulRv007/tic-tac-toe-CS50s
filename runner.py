@@ -109,11 +109,12 @@ while True:
         screen.blit(title, titleRect)
 
         # Check for AI move
-        if user != player and not game_over:
+        if not game_over and user != player:
             if ai_turn:
                 time.sleep(0.5)
                 move = ttt.minimax(board)
-                board = ttt.result(board, move)
+                if move is not None:
+                    board = ttt.result(board, move)
                 ai_turn = False
             else:
                 ai_turn = True
