@@ -1,7 +1,7 @@
 
 # 🧠 Tic-Tac-Toe with Minimax AI
 
-This project is a Python implementation of the classic **Tic-Tac-Toe** game, featuring an unbeatable AI powered by the **Minimax algorithm**. It's designed as part of the [CS50's Introduction to Artificial Intelligence with Python](https://cs50.harvard.edu/ai/) course.
+This project is a Python implementation of the classic **Tic-Tac-Toe** game, featuring an unbeatable AI powered by the **Minimax algorithm**. It's designed as part of the [CS50's Introduction to Artificial Intelligence with Python](https://learning.edx.org/course/course-v1:HarvardX+CS50AI+1T2020/home) course.
 
 ## 🎮 Features
 
